@@ -1,11 +1,13 @@
 
-
+=================================================================================
 or create a new repository on the command line
 
 echo "# python-practice-ostad" >> README.md
 
 git config --global user.name "AL MAMUN"
 git config --global user.email "talkmamun@gmail.com"
+
+=================================================================================
 
 git init
 git add README.md
@@ -15,34 +17,40 @@ git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git push -u origin main
 '
 
-================================================================
+================================================================================
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git branch -M main
 git push -u origin main
 
-
-=========================================================
+===============================================================================
 git add /
 git commit -M "mmmmm"
 git push -u origin main
-===========================================================
+===============================================================================
 
 if you install git at different location 
 
 PS C:\Users\mamun\Desktop\Python_Code> $env:Path += ";d:\Program Files\Git\cmd"
 
 
-====================================
+==============================================================================
 
-how to pull other repository data
+How to pull other repository data
 Data pull from  git clone https://github.com/talkmamun/mamun-project.git      
 
 
 PS C:\Users\mamun\Desktop\Python_Code> git clone https://github.com/talkmamun/mamun-project.git      
 
 
-
+=============================================================================
+Command	Purpose
+git clone	Download a repository for the first time
+git pull	Download and integrate latest changes
+git fetch	Download remote changes without merging
+git push	Upload your local commits to GitHub
+git status	Check current Git status
+=============================================================================
 
 
