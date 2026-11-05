@@ -13,7 +13,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git push -u origin main
+'
 
+================================================================
 …or push an existing repository from the command line
 
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
@@ -21,12 +23,24 @@ git branch -M main
 git push -u origin main
 
 
-
-
+=========================================================
+git add /
+git commit -M "mmmmm"
+git push -u origin main
+===========================================================
 
 if you install git at different location 
 
 PS C:\Users\mamun\Desktop\Python_Code> $env:Path += ";d:\Program Files\Git\cmd"
+
+
+====================================
+
+how to pull other repository data
+Data pull from  git clone https://github.com/talkmamun/mamun-project.git      
+
+
+PS C:\Users\mamun\Desktop\Python_Code> git clone https://github.com/talkmamun/mamun-project.git      
 
 
 
