@@ -3,6 +3,10 @@
 or create a new repository on the command line
 
 echo "# python-practice-ostad" >> README.md
+
+git config --global user.name "AL MAMUN"
+git config --global user.email "talkmamun@gmail.com"
+
 git init
 git add README.md
 git commit -m "first commit"
@@ -15,4 +19,16 @@ git push -u origin main
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git branch -M main
 git push -u origin main
+
+
+
+
+
+if you install git at different location 
+
+PS C:\Users\mamun\Desktop\Python_Code> $env:Path += ";d:\Program Files\Git\cmd"
+
+
+
+
 
