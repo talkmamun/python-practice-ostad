@@ -8,32 +8,38 @@ git config --global user.name "AL MAMUN"
 git config --global user.email "talkmamun@gmail.com"
 
 =================================================================================
-
+Initial Setup
+------------
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git push -u origin main
-'
+
+=========================================================
+
+git remote remove origin
+git push --set-upstream origin main
 
 ================================================================================
-…or push an existing repository from the command line
+
+… or push an existing repository from the command line
 
 git remote add origin https://github.com/talkmamun/python-practice-ostad.git
 git branch -M main
 git push -u origin main
 
 ===============================================================================
-git add /
-git commit -M "mmmmm"
+Daily 
+git add .
+git commit -m "mmmmm"
 git push -u origin main
 ===============================================================================
 
 if you install git at different location 
 
 PS C:\Users\mamun\Desktop\Python_Code> $env:Path += ";d:\Program Files\Git\cmd"
-
 
 ==============================================================================
 
@@ -52,5 +58,9 @@ git fetch	Download remote changes without merging
 git push	Upload your local commits to GitHub
 git status	Check current Git status
 =============================================================================
+
+git push --set-upstream origin main
+
+
 
 
